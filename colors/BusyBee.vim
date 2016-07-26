@@ -1,7 +1,9 @@
 " Maintainer:	Patrick J. Anderson
+" Modified:     Mariia Fedotenkova
 " Version:      1.0.1
-" Last Change:	February 23, 2009
-" Credits:      This is a modification of Mustang.vim color scheme
+" Last Change:	February 23, 2015
+" Credits:      This is customized BusyBee theme.
+"               This is a modification of Mustang.vim color scheme.
 
 set background=dark
 
@@ -25,31 +27,33 @@ endif
 " General colors
 hi Cursor 		   guifg=NONE    guibg=#626262 gui=none ctermbg=241
 hi Normal 		   guifg=#e2e2e5 guibg=#202020 gui=none ctermfg=253 ctermbg=234
-hi NonText 		   guifg=#808080 guibg=#202020 gui=none ctermfg=244 ctermbg=235
-hi LineNr 		   guifg=#303030 guibg=#202020 gui=none ctermfg=244 ctermbg=232
+hi NonText 		   guifg=#808080 guibg=#202020 gui=none ctermfg=244 ctermbg=234
+hi LineNr 		   guifg=#404040 guibg=#202020 gui=none ctermfg=244 ctermbg=234
 hi StatusLine 	   guifg=#d3d3d5 guibg=#303030 gui=none ctermfg=253 ctermbg=238
 hi StatusLineNC    guifg=#939395 guibg=#303030 gui=none ctermfg=246 ctermbg=238
 hi VertSplit 	   guifg=#444444 guibg=#303030 gui=none ctermfg=238 ctermbg=238
-hi Folded 		   guibg=#384048 guifg=#a0a8b0 gui=none ctermbg=4 ctermfg=248
-hi Title		   guifg=#f6f3e8 guibg=NONE	gui=bold ctermfg=254 cterm=bold
-hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
+hi Folded 		   guibg=#2c333a guifg=#a0a8b0 gui=none ctermbg=236 ctermfg=248
+hi Title		   guifg=#f6f3e8 guibg=NONE	   gui=bold ctermfg=254 cterm=bold
+hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=249 ctermbg=238
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
+hi ColorColumn     guifg=NONE    guibg=#1a1a1a gui=none ctermfg=none ctermbg=233
+hi SpellBad        guifg=NONE guibg=NONE gui=undercurl ctermfg=red ctermbg=white cterm=underline guisp=red
+hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=none ctermfg=234 ctermbg=214
 
 " Syntax highlighting
-hi Comment 		   guifg=#3f3f3f gui=italic ctermfg=244
+hi Comment 		   guifg=#595959 gui=italic ctermfg=244
 hi Todo 		   guifg=#8f8f8f gui=none ctermfg=245
 hi Boolean         guifg=#b1d631 gui=none ctermfg=148
-hi String 		   guifg=#606060 gui=none ctermfg=148
-hi Identifier 	   guifg=#b1d631 gui=none ctermfg=148
-hi Function 	   guifg=#ffff00 gui=none ctermfg=255
-hi Type 		   guifg=#7e8aa2 gui=none ctermfg=103
-hi Statement 	   guifg=#7e8aa2 gui=none ctermfg=103
+hi String 		   guifg=#d75f87 gui=none ctermfg=168
+hi Identifier 	   guifg=#bfbfbf gui=none ctermfg=250
+hi Function 	   guifg=#798abe gui=none ctermfg=103
+hi Type 		   guifg=#8787af gui=none ctermfg=103
+hi Statement 	   guifg=#7e8aa2 gui=none ctermfg=241
 hi Keyword		   guifg=#ff9800 gui=none ctermfg=208
 hi Constant 	   guifg=#ff9800 gui=none  ctermfg=208
 hi Number		   guifg=#ff9800 gui=none ctermfg=208
 hi Special		   guifg=#ff9800 gui=none ctermfg=208
-hi PreProc 		   guifg=#faf4c6 gui=none ctermfg=230
-hi Todo            guifg=#ff9f00 guibg=#202020 gui=none
+hi PreProc 		   guifg=#f9f1b9 gui=none ctermfg=229
 
 " Code-specific colors
 hi pythonImport    guifg=#009000 gui=none ctermfg=255
