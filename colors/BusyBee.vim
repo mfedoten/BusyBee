@@ -42,12 +42,14 @@ hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=red  ctermb
 hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=none      ctermfg=234  ctermbg=214
 
 " Syntax highlighting
+hi Todo 		   guifg=#86f9f9 guibg=#333333 gui=bold ctermfg=123 ctermbg=238 cterm=bold
+hi MoreMsg         guifg=#008700 gui=none   ctermfg=022
+hi Question        guifg=#008700 gui=none   ctermfg=022
 hi Comment 		   guifg=#595959 gui=italic ctermfg=244
-hi Todo 		   guifg=#8f8f8f gui=none   ctermfg=245
 hi Boolean         guifg=#b1d631 gui=none   ctermfg=148
 hi String 		   guifg=#d75f87 gui=none   ctermfg=168
 hi Identifier 	   guifg=#bfbfbf gui=none   ctermfg=250
-hi Function 	   guifg=#798abe gui=none   ctermfg=103
+hi Function 	   guifg=#7488c3 gui=none   ctermfg=103
 hi Type 		   guifg=#8787af gui=none   ctermfg=103
 hi Statement 	   guifg=#7e8aa2 gui=none   ctermfg=241
 hi Keyword		   guifg=#ff9806 gui=none   ctermfg=208
