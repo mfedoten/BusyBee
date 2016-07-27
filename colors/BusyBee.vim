@@ -42,7 +42,7 @@ hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=red  ctermb
 hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=none      ctermfg=234  ctermbg=214
 
 " Syntax highlighting
-hi Todo 		   guifg=#86f9f9 guibg=#333333 gui=bold ctermfg=123 ctermbg=238 cterm=bold
+hi Todo 		   guifg=#20f8f8 guibg=#333333 gui=bold ctermfg=159 ctermbg=238 cterm=bold
 hi MoreMsg         guifg=#008700 gui=none   ctermfg=022
 hi Question        guifg=#008700 gui=none   ctermfg=022
 hi Comment 		   guifg=#595959 gui=italic ctermfg=244
