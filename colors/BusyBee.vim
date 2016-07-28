@@ -35,7 +35,7 @@ hi StatusLineNC    guifg=#939395 guibg=#303030 gui=none      ctermfg=246  ctermb
 hi VertSplit 	   guifg=#444444 guibg=#303030 gui=none      ctermfg=238  ctermbg=238
 hi Folded 		   guibg=#2c333a guifg=#a0a8b0 gui=none      ctermbg=236  ctermfg=248
 hi Title		   guifg=#f6f3e8 guibg=NONE	   gui=bold      ctermfg=254  cterm=bold
-hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none      ctermfg=249  ctermbg=238
+hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none      ctermfg=229  ctermbg=238
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none      ctermfg=244  ctermbg=236
 hi ColorColumn     guifg=NONE    guibg=#1a1a1a gui=none      ctermfg=NONE ctermbg=233
 hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=red  ctermbg=white cterm=underline guisp=red
