@@ -38,7 +38,7 @@ hi Title		   guifg=#f6f3e8 guibg=NONE	   gui=bold      ctermfg=254  cterm=bold
 hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none      ctermfg=229  ctermbg=238
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none      ctermfg=244  ctermbg=236
 hi ColorColumn     guifg=NONE    guibg=#1a1a1a gui=none      ctermfg=NONE ctermbg=233
-hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=red  ctermbg=white cterm=underline guisp=red
+hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=red  ctermbg=NONE cterm=underline guisp=red
 hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=none      ctermfg=234  ctermbg=214
 
 " Syntax highlighting
@@ -65,3 +65,8 @@ hi pythonOperator  guifg=#7e8aa2 gui=none ctermfg=103
 hi pythonExClass   guifg=#009000 gui=none ctermfg=200
 hi pythonBuiltinFunction guifg=#009000 gui=none ctermfg=200
 
+" Diff colors
+hi DiffAdd          guibg=#262626 guifg=#87af87 ctermbg=235  ctermfg=108 cterm=reverse gui=reverse
+hi DiffChange       guibg=#262626 guifg=#8787af ctermbg=235  ctermfg=103 cterm=reverse gui=reverse
+hi DiffDelete       guibg=#262626 guifg=#af5f5f ctermbg=235  ctermfg=131 cterm=reverse gui=reverse
+hi DiffText         guibg=#262626 guifg=#ff9806 ctermbg=235  ctermfg=208 cterm=reverse gui=reverse
