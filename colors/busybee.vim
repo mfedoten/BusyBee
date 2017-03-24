@@ -39,7 +39,7 @@ hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none      ctermfg=229  ctermbg=238
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none      ctermfg=244  ctermbg=236
 hi ColorColumn     guifg=NONE    guibg=#1a1a1a gui=none      ctermfg=NONE ctermbg=233
 hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=196  ctermbg=NONE cterm=underline guisp=Red
-hi SpellCap        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=blue ctermbg=NONE cterm=underline guisp=Blue
+hi SpellCap        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=27 ctermbg=NONE cterm=underline guisp=Blue
 hi SpellRare       guifg=NONE    guibg=NONE    gui=undercurl ctermfg=13   ctermbg=NONE cterm=underline guisp=Magenta
 hi SpellLocal      guifg=NONE    guibg=NONE    gui=undercurl ctermfg=14   ctermbg=NONE cterm=underline guisp=Cyan
 hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=none      ctermfg=234  ctermbg=214
