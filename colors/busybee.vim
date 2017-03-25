@@ -38,17 +38,18 @@ hi Title		   guifg=#f6f3e8 guibg=NONE	   gui=bold      ctermfg=254  cterm=bold
 hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=none      ctermfg=229  ctermbg=238
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=none      ctermfg=244  ctermbg=236
 hi ColorColumn     guifg=NONE    guibg=#1a1a1a gui=none      ctermfg=NONE ctermbg=233
-hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=196  ctermbg=NONE cterm=underline guisp=Red
-hi SpellCap        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=27 ctermbg=NONE cterm=underline guisp=Blue
+hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=1    ctermbg=NONE cterm=underline guisp=Red
+hi SpellCap        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=27   ctermbg=NONE cterm=underline guisp=Blue
 hi SpellRare       guifg=NONE    guibg=NONE    gui=undercurl ctermfg=13   ctermbg=NONE cterm=underline guisp=Magenta
 hi SpellLocal      guifg=NONE    guibg=NONE    gui=undercurl ctermfg=14   ctermbg=NONE cterm=underline guisp=Cyan
 hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=none      ctermfg=234  ctermbg=214
+hi WildMenu        guifg=#202020 guibg=#ffb380 gui=bold      ctermfg=0    ctermbg=215  cterm=standout
 
 " Syntax highlighting
 hi Todo 		   guifg=#20f8f8 guibg=#333333 gui=bold ctermfg=159 ctermbg=238 cterm=bold
 hi MoreMsg         guifg=#008700 gui=none   ctermfg=022
 hi Question        guifg=#008700 gui=none   ctermfg=022
-hi Comment 		   guifg=#595959 gui=italic ctermfg=244
+hi Comment 		   guifg=#595959 gui=italic ctermfg=244 cterm=italic
 hi Boolean         guifg=#b1d631 gui=none   ctermfg=148
 hi String 		   guifg=#d75f87 gui=none   ctermfg=168
 hi Identifier 	   guifg=#bfbfbf gui=none   ctermfg=250
