@@ -43,7 +43,7 @@ hi SpellCap        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=27   ctermb
 hi SpellRare       guifg=NONE    guibg=NONE    gui=undercurl ctermfg=13   ctermbg=NONE cterm=underline guisp=Magenta
 hi SpellLocal      guifg=NONE    guibg=NONE    gui=undercurl ctermfg=14   ctermbg=NONE cterm=underline guisp=Cyan
 hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=none      ctermfg=234  ctermbg=214
-hi WildMenu        guifg=#202020 guibg=#ffb380 gui=bold      ctermfg=0    ctermbg=215  cterm=standout
+hi WildMenu        guifg=#202020 guibg=#ffb380 gui=bold      ctermfg=215  ctermbg=none  cterm=standout
 
 " Syntax highlighting
 hi Todo 		   guifg=#20f8f8 guibg=#333333 gui=bold ctermfg=159 ctermbg=238 cterm=bold
@@ -63,11 +63,12 @@ hi Special		   guifg=#ff9806 gui=none   ctermfg=208
 hi PreProc 		   guifg=#f9f1b9 gui=none   ctermfg=229
 
 " Code-specific colors
-hi pythonImport    guifg=#009000 gui=none ctermfg=255
-hi pythonException guifg=#f00000 gui=none ctermfg=200
-hi pythonOperator  guifg=#7e8aa2 gui=none ctermfg=103
-hi pythonExClass   guifg=#009000 gui=none ctermfg=200
+hi pythonImport          guifg=#009000 gui=none ctermfg=255
+hi pythonException       guifg=#d7005f gui=none ctermfg=161
+hi pythonOperator        guifg=#7e8aa2 gui=none ctermfg=103
+hi pythonExClass         guifg=#009000 gui=none ctermfg=200
 hi pythonBuiltinFunction guifg=#009000 gui=none ctermfg=200
+hi pythonDocstring       guifg=#e2b6b6 gui=none ctermfg=181
 
 " Diff colors
 hi DiffAdd          guibg=#262626 guifg=#87af87 ctermbg=235  ctermfg=108 cterm=reverse gui=reverse
