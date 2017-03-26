@@ -1,9 +1,7 @@
-" Maintainer:	Patrick J. Anderson
-" Modified:     Mariia Fedotenkova
-" Version:      1.0.1
-" Last Change:	February 23, 2015
-" Credits:      This is customized BusyBee theme.
-"               This is a modification of Mustang.vim color scheme.
+" Maintainer:	Mariia Fedotenkova
+" Version:      1.0.0
+" Last Change:	March 26, 2017
+" Credits:      vimberry is customized BusyBee theme.
 
 set background=dark
 
@@ -13,7 +11,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "busybee"
+let colors_name = "vimberry"
 
 " Vim >= 7.0 specific colors
 if version >= 700
