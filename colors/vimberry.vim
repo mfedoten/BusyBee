@@ -78,6 +78,7 @@ hi pythonDocstring       guifg=#e2b6b6 gui=italic ctermfg=181 cterm=italic
 hi pythonClassVar        guifg=#e2b6b6 gui=bold   ctermfg=181 cterm=bold
 hi pythonNone            guifg=#ff8c66 gui=NONE   ctermfg=209
 hi pythonImport          guifg=#b1d631 gui=NONE   ctermfg=148
+hi link pythonInclude pythonImport
 hi link pythonExClass pythonException
 
 " Diff colors
