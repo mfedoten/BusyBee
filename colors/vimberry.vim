@@ -52,7 +52,7 @@ hi Question        guifg=#008700 gui=NONE   ctermfg=022
 hi Comment 		   guifg=#595959 gui=italic ctermfg=244 cterm=italic
 hi Boolean         guifg=#b1d631 gui=NONE   ctermfg=148
 hi String 		   guifg=#d75f87 gui=NONE   ctermfg=168
-hi Identifier 	   guifg=#bfbfbf gui=NONE   ctermfg=250
+hi Identifier 	   guifg=#eeeeee gui=NONE   ctermfg=256
 hi Function 	   guifg=#7488c3 gui=NONE   ctermfg=103
 hi Type 		   guifg=#8787af gui=NONE   ctermfg=103
 hi Statement 	   guifg=#7e8aa2 gui=NONE   ctermfg=241
@@ -71,12 +71,14 @@ hi link SyntasticStyleErrorSign SyntasticErrorSign
 hi link SyntasticStyleWarningSign SyntasticWarningSign
 
 " Code-specific colors
-hi pythonImport          guifg=#009000 gui=NONE ctermfg=255
-hi pythonException       guifg=#d7005f gui=NONE ctermfg=161
-hi pythonOperator        guifg=#7e8aa2 gui=NONE ctermfg=103
-hi pythonExClass         guifg=#009000 gui=NONE ctermfg=200
-hi pythonBuiltinFunction guifg=#009000 gui=NONE ctermfg=200
-hi pythonDocstring       guifg=#e2b6b6 gui=NONE ctermfg=181
+hi pythonException       guifg=#d7005f gui=NONE   ctermfg=161
+hi pythonOperator        guifg=#7e8aa2 gui=NONE   ctermfg=103
+hi pythonBuiltinFunction guifg=#009000 gui=NONE   ctermfg=200
+hi pythonDocstring       guifg=#e2b6b6 gui=italic ctermfg=181 cterm=italic
+hi pythonClassVar        guifg=#e2b6b6 gui=bold   ctermfg=181 cterm=bold
+hi pythonNone            guifg=#ff8c66 gui=NONE   ctermfg=209
+hi pythonImport          guifg=#b1d631 gui=NONE   ctermfg=148
+hi link pythonExClass pythonException
 
 " Diff colors
 hi DiffAdd          guibg=#262626 guifg=#87af87 ctermbg=235  ctermfg=108 cterm=reverse gui=reverse
