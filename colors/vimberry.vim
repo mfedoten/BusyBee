@@ -52,7 +52,7 @@ hi Question        guifg=#008700 gui=NONE   ctermfg=022
 hi Comment 		   guifg=#595959 gui=italic ctermfg=244 cterm=italic
 hi Boolean         guifg=#b1d631 gui=NONE   ctermfg=148
 hi String 		   guifg=#d75f87 gui=NONE   ctermfg=168
-hi Identifier 	   guifg=#eeeeee gui=NONE   ctermfg=256
+hi Identifier 	   guifg=#eeeeee gui=NONE   ctermfg=255
 hi Function 	   guifg=#7488c3 gui=NONE   ctermfg=103
 hi Type 		   guifg=#8787af gui=NONE   ctermfg=103
 hi Statement 	   guifg=#7e8aa2 gui=NONE   ctermfg=241
