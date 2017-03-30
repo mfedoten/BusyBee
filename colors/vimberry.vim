@@ -28,8 +28,9 @@ hi Cursor 		   guifg=NONE    guibg=#626262 gui=NONE      ctermbg=241
 hi Normal 		   guifg=#e2e2e5 guibg=#202020 gui=NONE      ctermfg=253    ctermbg=234
 hi NonText 		   guifg=#808080 guibg=#202020 gui=NONE      ctermfg=244    ctermbg=234
 hi LineNr 		   guifg=#4d4d4d guibg=#202020 gui=NONE      ctermfg=244    ctermbg=234
-hi StatusLine 	   guifg=#d3d3d5 guibg=#303030 gui=NONE      ctermfg=253    ctermbg=238
+hi StatusLine      guifg=#d3d3d5 guibg=#303030 gui=NONE      ctermfg=253    ctermbg=235  cterm=bold
 hi StatusLineNC    guifg=#939395 guibg=#303030 gui=NONE      ctermfg=246    ctermbg=238
+hi WildMenu        guifg=#ff9806 guibg=#121212 gui=bold      ctermfg=208    ctermbg=232  cterm=bold
 hi VertSplit 	   guifg=#444444 guibg=#303030 gui=NONE      ctermfg=238    ctermbg=238
 hi Folded 		   guifg=#a0a8b0 guibg=#2c333a gui=NONE      ctermfg=248    ctermbg=236
 hi Title		   guifg=#f6f3e8 guibg=NONE	   gui=bold      ctermfg=254    cterm=bold
@@ -40,10 +41,9 @@ hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=1      cter
 hi SpellCap        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=27     ctermbg=NONE cterm=underline guisp=Blue
 hi SpellRare       guifg=NONE    guibg=NONE    gui=undercurl ctermfg=13     ctermbg=NONE cterm=underline guisp=Magenta
 hi SpellLocal      guifg=NONE    guibg=NONE    gui=undercurl ctermfg=14     ctermbg=NONE cterm=underline guisp=Cyan
-hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=NONE      ctermfg=234    ctermbg=214  cterm=NONE
-hi WildMenu        guifg=#202020 guibg=#ffb380 gui=bold      ctermfg=215    ctermbg=NONE cterm=standout
+hi Search		   guifg=#1c1c1c guibg=#ff9806 gui=NONE      ctermfg=234    ctermbg=208  cterm=NONE
+hi IncSearch       guifg=#1c1c1c guibg=#ffb380 gui=NONE      ctermfg=234    ctermbg=215  cterm=NONE
 hi SignColumn      guifg=#a0a8b0 guibg=#2c333a gui=NONE      ctermfg=248    ctermbg=236  cterm=NONE 
-hi StatusLine      guifg=#d3d3d5 guibg=#303030 gui=NONE      ctermfg=253    ctermbg=235  cterm=bold
 
 " Syntax highlighting
 hi Todo 		   guifg=#20f8f8 guibg=#333333 gui=bold ctermfg=159 ctermbg=238 cterm=bold
@@ -86,3 +86,6 @@ hi DiffAdd          guibg=#262626 guifg=#87af87 ctermbg=235  ctermfg=108 cterm=r
 hi DiffChange       guibg=#262626 guifg=#8787af ctermbg=235  ctermfg=103 cterm=reverse gui=reverse
 hi DiffDelete       guibg=#262626 guifg=#af5f5f ctermbg=235  ctermfg=131 cterm=reverse gui=reverse
 hi DiffText         guibg=#262626 guifg=#ff9806 ctermbg=235  ctermfg=208 cterm=reverse gui=reverse
+
+" CtrlP
+hi CtrlPMatch       guifg=#ff8c66 ctermfg=209
