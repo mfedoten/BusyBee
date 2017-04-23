@@ -41,7 +41,7 @@ hi SpellCap        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=27     cter
 hi SpellRare       guifg=NONE    guibg=NONE    gui=undercurl ctermfg=13     ctermbg=NONE cterm=underline guisp=Magenta
 hi SpellLocal      guifg=NONE    guibg=NONE    gui=undercurl ctermfg=14     ctermbg=NONE cterm=underline guisp=Cyan
 hi Search		   guifg=#1c1c1c guibg=#cc7a00 gui=NONE      ctermfg=234    ctermbg=214  cterm=NONE
-hi WildMenu        guifg=#202020 guibg=#ffb380 gui=bold      ctermfg=215    ctermbg=NONE cterm=standout
+hi WildMenu        guifg=#202020 guibg=#ffb380 gui=bold      ctermfg=215    ctermbg=NONE
 hi SignColumn      guifg=#a0a8b0 guibg=#2c333a gui=NONE      ctermfg=248    ctermbg=236  cterm=NONE 
 hi StatusLine      guifg=#d3d3d5 guibg=#303030 gui=NONE      ctermfg=253    ctermbg=235  cterm=bold
 
