@@ -34,7 +34,7 @@ hi WildMenu        guifg=#ff9806 guibg=#121212 gui=bold      ctermfg=208    cter
 hi VertSplit 	   guifg=#444444 guibg=#303030 gui=NONE      ctermfg=238    ctermbg=238
 hi Folded 		   guifg=#a0a8b0 guibg=#2c333a gui=NONE      ctermfg=248    ctermbg=236
 hi Title		   guifg=#f6f3e8 guibg=NONE	   gui=bold      ctermfg=254    cterm=bold
-hi Visual		   guifg=#faf4c6 guibg=#3c414c gui=NONE      ctermfg=229    ctermbg=238
+hi Visual		   guifg=#eeeeee guibg=#3c414c gui=NONE      ctermfg=255    ctermbg=238
 hi SpecialKey	   guifg=#808080 guibg=#343434 gui=NONE      ctermfg=244    ctermbg=236
 hi ColorColumn     guifg=NONE    guibg=#1a1a1a gui=NONE      ctermfg=NONE   ctermbg=233
 hi SpellBad        guifg=NONE    guibg=NONE    gui=undercurl ctermfg=1      ctermbg=NONE cterm=underline guisp=Red
