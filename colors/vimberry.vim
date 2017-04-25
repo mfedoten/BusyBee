@@ -47,8 +47,7 @@ hi SignColumn      guifg=#a0a8b0 guibg=#2c333a gui=NONE      ctermfg=248    cter
 
 " Syntax highlighting
 hi Todo 		   guifg=#20f8f8 guibg=#333333 gui=bold ctermfg=159 ctermbg=238 cterm=bold
-hi MoreMsg         guifg=#008700 gui=NONE   ctermfg=022
-hi Question        guifg=#008700 gui=NONE   ctermfg=022
+hi Question        guifg=#b1d631 gui=NONE   ctermfg=148
 hi Comment 		   guifg=#595959 gui=italic ctermfg=244 cterm=italic
 hi Boolean         guifg=#b1d631 gui=NONE   ctermfg=148
 hi String 		   guifg=#d75f87 gui=NONE   ctermfg=168
@@ -61,6 +60,14 @@ hi Constant 	   guifg=#ff9806 gui=NONE   ctermfg=208
 hi Number		   guifg=#ffb380 gui=NONE   ctermfg=215
 hi Special		   guifg=#ff9806 gui=NONE   ctermfg=208
 hi PreProc 		   guifg=#f9f1b9 gui=NONE   ctermfg=229
+hi clear MoreMsg
+hi link MoreMsg Question
+
+" Pop-up menu
+hi PMenu      guifg=#dadada guibg=#383838 gui=NONE ctermfg=253 ctermbg=237 cterm=NONE
+hi PMenuSel   guifg=#87d7d7 guibg=#383838 gui=bold ctermfg=116 ctermbg=237 cterm=bold
+hi PmenuSbar  guifg=#3a3a3a guibg=#3a3a3a gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
+hi PmenuThumb guifg=#262626 guibg=#262626 gui=NONE ctermfg=235 ctermbg=235 cterm=NONE
 
 " Syntastic
 hi SyntasticErrorSign        guibg=NONE    guifg=red     ctermbg=NONE ctermfg=1
