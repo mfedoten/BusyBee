@@ -67,7 +67,7 @@ hi link MoreMsg Question
 hi PMenu      guifg=#dadada guibg=#383838 gui=NONE ctermfg=253 ctermbg=237 cterm=NONE
 hi PMenuSel   guifg=#87d7d7 guibg=#383838 gui=bold ctermfg=116 ctermbg=237 cterm=bold
 hi PmenuSbar  guifg=#3a3a3a guibg=#3a3a3a gui=NONE ctermfg=237 ctermbg=237 cterm=NONE
-hi PmenuThumb guifg=#262626 guibg=#262626 gui=NONE ctermfg=235 ctermbg=235 cterm=NONE
+hi PmenuThumb guifg=#262626 guibg=#262626 gui=NONE ctermfg=235 ctermbg=red cterm=NONE
 
 " Syntastic
 hi SyntasticErrorSign        guibg=NONE    guifg=red     ctermbg=NONE ctermfg=1
@@ -87,6 +87,9 @@ hi pythonNone            guifg=#ff8c66 gui=NONE   ctermfg=209
 hi pythonImport          guifg=#b1d631 gui=NONE   ctermfg=148
 hi link pythonInclude pythonImport
 hi link pythonExClass pythonException
+" Jedi pop-up menu
+hi link jediFunction PMenu
+hi link jediFat PMenuSel
 
 " Diff colors
 hi DiffAdd          guibg=#262626 guifg=#87af87 ctermbg=235  ctermfg=108 cterm=reverse gui=reverse
