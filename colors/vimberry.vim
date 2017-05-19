@@ -46,7 +46,7 @@ hi IncSearch       guifg=#1c1c1c guibg=#ffb380 gui=NONE      ctermfg=234    cter
 hi SignColumn      guifg=#a0a8b0 guibg=#2c333a gui=NONE      ctermfg=248    ctermbg=236  cterm=NONE 
 
 " Syntax highlighting
-hi Todo 		   guifg=#20f8f8 guibg=#333333 gui=bold ctermfg=159 ctermbg=238 cterm=bold
+hi Todo 		   guifg=#20f8f8 guibg=#333333 gui=italic ctermfg=159 ctermbg=238 cterm=italic
 hi Question        guifg=#b1d631 gui=NONE   ctermfg=148
 hi Comment 		   guifg=#595959 gui=italic ctermfg=244 cterm=italic
 hi Boolean         guifg=#b1d631 gui=NONE   ctermfg=148
