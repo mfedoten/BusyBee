@@ -97,4 +97,8 @@ hi DiffText         guibg=#262626 guifg=#ff9806 ctermbg=235  ctermfg=208 cterm=r
 " CtrlP
 hi CtrlPMatch       guifg=#ff8c66 ctermfg=209
 
+" Indent guides
+hi IndentGuidesOdd  guibg=#1a1a1a ctermbg=233
+hi IndentGuidesEven guibg=#2c333a ctermbg=236
+
 set background=dark
