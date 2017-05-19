@@ -3,10 +3,7 @@
 " Last Change:	March 26, 2017
 " Credits:      vimberry is customized BusyBee theme.
 
-set background=dark
-
 hi clear
-
 if exists("syntax_on")
   syntax reset
 endif
@@ -99,3 +96,5 @@ hi DiffText         guibg=#262626 guifg=#ff9806 ctermbg=235  ctermfg=208 cterm=r
 
 " CtrlP
 hi CtrlPMatch       guifg=#ff8c66 ctermfg=209
+
+set background=dark
